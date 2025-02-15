@@ -8,7 +8,6 @@ def load_data(file_path):
     except pd.errors.EmptyDataError:
         df = pd.DataFrame()
     return df
-
 def add_data(df):
     while True:
         new_data = {}
